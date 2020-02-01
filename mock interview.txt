@@ -1,0 +1,61 @@
+o Tell me a little bit about yourself.
+
+Ans: I am A graduate student in Engineering management, with a focus in Applied Statistics and Data Science.
+
+o What is your dream job?
+
+I would like to use my strong knowledge of statistics into a product oriented company to provide accurate information between product tests and hypothesis. My dream job would be a place where I can continue to learn, grow and teach the knowledge gained.
+
+o What is your most significant accomplishment thus far?
+
+o I have done over 4 graduate level projects that’s data driven with applied statistics. I am a co-founder of an online store with a wide variety of fancy collection ( www.razzledazzlerz.com). I am also part of a National Fraternity, Beta Gamma Nu where I am a campus wide leader to organize events such as fund raisers, conducting seminars and hosting partnered events from other chapter members.
+
+o What experience do you have with data science?
+
+o To begin with, I have secured top grades in Statistics ( “A” grade) . I always tend to provide solution for a given set of data. At my work place ( Duplicating and Shipping Services, CSUEB), I am currently working on the sales data to provide strategies to my manager for better profit. I have taken academic courses such as Bootstrapping Methods, Statistical Learning, Applied Deep Learning. I am proficient in Python and SQL. I am currently pursuing a Data Science bootcamp which involves data cleaning, machine learning, algorithms, building supervised and unsupervised models and specialization in Big Data with spark, NLP and data Visualization. I have also completed a 23.5 hours of bootcamp in Python for machine learning and data science in Udemy.
+
+o What things do you consider to be the most important in your next job?
+
+o The most important things I consider are the work environment, employees with a vision to achieve and settle for nothing but the greatest.
+
+o Why do you want to be a data scientist?
+
+My basic statistics are my greatest plus points. I can always relate any data-oriented question to a statistical form and provide an answer to it.
+
+o What are you looking for in a new position?
+
+o I am looking for a role that will provide me a platform to learn and grow as a Data Scientist.
+
+o What kinds of work interest you the most?
+
+o I would like to work in a problem solving environment and a company that will want me to travel to different locations.
+
+o What do you know about this job?
+
+o Data Scientist’s roles are to provide data based solutions with organized and structures strategies. I personally believe that a strong data scientist is someone who is skilled in software (Python, SQL, etc), company’s core ( Mechanical, Electrical, Finance, etc) and marketing.
+
+o What software do you have experience with? How would you describe your experience level with that software?
+
+o I have experience in Python, SQL, MS Office Suite, Auto CAD, Tableau and QM where I have done graduate level projects. I am also pursuing a capstone project for my graduate and the bootcamp.
+
+o What types of datasets do you have experience with? How would you describe your experience level with analyzing them?
+
+o Machine data, time stamped data, open data, graph based data and market data. o What types of data analysis techniques do you have experience with? How would you describe your experience level with analyzing them?
+
+o Predictive analysis, statistical analysis and text analysis.
+
+o What qualities do you think are necessary to make a success of this job?
+
+o Creativity, communication skills, cross functional, visualization skill and always eager to work on datasets to produce a positive outcome.
+
+o What can you tell me about this company/position?
+
+o This position involves using statistical models such as AI, Machine learning to predict the future for improving the business.
+
+o What interests you about working at this company?
+
+o The fact that this company provides a platform and freedom for the data scientists to be innovative and giving them an opportunity to grow.
+
+o What type of work environment do you prefer?
+
+o I prefer working in an environment where the employees respect each other regardless of their position. I would also like the company to provide me the space to work on my own research work.

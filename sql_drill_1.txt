@@ -1,0 +1,96 @@
+1) select count(*)
+   from vehicles;
+ans: 33442
+
+2) SELECT *
+   from vehicles;
+
+3) SELECT id, make, model
+   FROM vehicles
+   WHERE year = 2010;
+
+4) SELECT COUNT(*)
+   FROM vehicles WHERE YEAR = 2010;
+ans: 1109
+
+5) SELECT COUNT(*)
+   FROM vehicles where year BETWEEN 2010 and 2015;
+ans: 5995
+
+6) SELECT COUNT(*)
+   FROM vehicles where year IN (1990,2000,2010);
+ans: 3026
+
+7) SELECT COUNT(*)
+   FROM vehicles
+   WHERE year BETWEEN 1987 and 2005
+   AND year NOT IN (1990, 2000);
+ans: 17235
+
+8) SELECT year, make, model, (hwy + cty) / 2 AS average_mpg
+   from vehicles;
+
+9) SELECT year, make, model, CONCAT(hwy, ' highway; ', cty, ' city;') as mpg_info
+   FROM vehicles;
+
+10) SELECT id, make, model, year
+    FROM vehicles
+    WHERE cyl IS NULL
+    OR displ IS NULL;
+
+11) SELECT * 
+    FROM vehicles
+    WHERE
+    drive = 'Rear-Wheel Drive'
+    AND fuel = 'Diesel'
+    AND year >= 2000
+    ORDER BY year DESC, hwy DESC;
+
+12) SELECT COUNT(*) 
+    FROM vehicles
+    WHERE
+    make IN ('Ford', 'Chevrolet')
+    AND class in ('Compact Cars', 'Two Seaters');
+
+ans: 612.
+
+13)SELECT *
+   FROM vehicles
+   ORDER BY hwy DESC 
+   LIMIT 10;
+
+14) SELECT *
+    FROM vehicles
+    WHERE model LIKE 'X%'
+    AND year >=2000
+    ORDER BY make;
+VS
+    SELECT *
+    FROM vehicles
+    WHERE model LIKE 'x%'
+    AND year >=2000
+    ORDER BY make;
+ans: they have completely different results
+
+15) SELECT COUNT(*)
+FROM vehicles
+WHERE cyl IS NULL;
+
+ans: 58
+
+16) SELECT COUNT(*)
+    FROM vehicles
+    WHERE
+    year < 2000
+    AND hwy > 20
+    AND displ > 3;
+ans: 1,964
+
+17) SELECT *
+    FROM vehicles
+    WHERE model LIKE '__X%';
+
+   
+
+
+

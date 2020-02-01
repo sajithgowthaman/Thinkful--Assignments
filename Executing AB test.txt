@@ -1,0 +1,9 @@
+1) Flaws: The information does not include the way the speech is given and who the crowd is. Vader might have gotten the wrong set of crowd who did not want to rule the galaxy. Corrections: There should be an experiment conducted to analyze the crowd before delivering the speeches. 2) Flaws: Having 65% in a resistive population is much better than having 75% in a friendly population. Moreover the report was reported by themselves, so no proper proof.
+
+Corrections: A valid proof such as a person an alternate team could be on board to record the data to remove biasing.
+
+3) Flaws: again, this report could be biased as there is not enough information about the countries situations Correction: There needs to be data about the population, and the country where the data is collected from. We can do this by individually collecting data from different country and joining them together.
+
+4) Not every user enters the right value. The small sample does not resemble the entire population. Correction: Instead of entering the values manually, the app must be designed to automatically collect information about the user’s activity.
+
+5) Flaw: The students taking version B could have been smarter or studied for that particular questions. Corrections: A data about each students previous performance to acquire the students predicted performance level. The questions in C and A could have been easier maybe in different randomized sampling.

@@ -1,0 +1,54 @@
+1) select DISTINCT country
+   from ksprojects;
+
+2) select count (DISTINCT main_category) AS main_category_count, count (DISTINCT category) AS category_count 
+   from ksprojects;
+	ans:15, 158.
+
+3) select DISTINCT main_category category
+   from ksprojects
+   order by main_category;
+
+4) select main_category, Count(DISTINCT category),
+   from ksprojects
+   GROUP BY main_category
+   PRDER BY main_category;
+
+5) select main_category round(avg(backers),0) as average_backers
+   from ksprojects
+   group by main_category
+   order by avg_backers desc;
+
+6) SELECT category, avg(usd_pledged - goal) as raised_over_goal, count(*)
+   FROM ksprojects
+   WHERE state = 'successful'
+   GROUP BY category;
+
+7) SELECT main_category, MAX(goal), COUNT(*)
+   FROM ksprojects
+   WHERE backers = 0
+   GROUP BY main_category;
+
+8) 
+   SELECT category, avg(usd_pledged/NULLIF(backers,0)) as avg_pledge_per_backer
+   FROM ksprojects
+   GROUP BY category
+   HAVING avg(usd_pledged/NULLIF(backers,0)) < 50
+   ORDER BY avg_pledge_per_backer DESC;
+
+9)  SELECT main_category, COUNT(*)
+    FROM ksprojects
+    WHERE state = 'successful' AND backers BETWEEN 5 AND 10
+    GROUP BY main_category;
+
+10) ELECT currency, SUM(pledged)
+    FROM ksprojects
+    GROUP BY currency
+    ORDER BY SUM(pledged) DESC;
+
+11) SELECT main_category, SUM(backers)
+    FROM ksprojects
+    WHERE main_category NOT IN('Games','Technology') and state = 'successful'
+    GROUP BY main_category
+    HAVING SUM(backers) > 100000
+    ORDER BY main_category;
